@@ -2,7 +2,9 @@ body {
     padding: 0px;
     margin: 0px;
     font-size: 12px;
-    font-family: Helvetica;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color: white;
 }
 
 .titulo {
@@ -13,7 +15,7 @@ body {
 
 nav {
     display: flex;
-    background-color: #f71f1f;
+    background-color: #ff0000;
     padding: 9px;
     color: rgb(248, 248, 248);
     justify-content: space-between;
@@ -42,28 +44,33 @@ nav li a:hover {
 /*--------------------main section*/
 
 .products {
-    background-color: aqua;
+    background-color: white;
     height: 50%;
     background-size: cover;
     background-position: center top;
     padding: 15%;
     display: flex;
+    color: black;
 }
 
 .product {
-    padding: 60px;
+    padding: 50px;
 }
 
-.main_section {
-    padding: 15px;
+.logo_poke {
+    border-radius: 35px;
+    width: 80px;
+    border: solid black;
+}
+
+.products h1 {
     text-align: center;
-    box-shadow: 0 0 2px black;
 }
 
 .product .content {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
-    box-shadow: 0 0 1px #c1bc;
+    box-shadow: 0px -1px 13px 4px black;
 }
 
 .img_conter {
@@ -72,8 +79,12 @@ nav li a:hover {
     text-align: center;
 }
 
+.content img {
+    width: 100px;
+}
+
 .main_button {
-    background-color: #7de61b;
+    background-color: #ff0000;
     width: 100%;
     padding: 10px;
     font-size: 12px;
@@ -84,5 +95,5 @@ nav li a:hover {
 }
 
 .main_button:hover {
-    background-color: #64b817;
+    background-color: #a70303;
 }

@@ -107,14 +107,5 @@ footer {
     justify-content: space-between;
     padding: 10px;
     color: rgb(255, 255, 255);
-}
-
-footer p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: grey;
-}
-
-.footer_img {
-    width: 50px;
-    border-radius: 50px;
+    background-color: rgb(32, 28, 28);
 }

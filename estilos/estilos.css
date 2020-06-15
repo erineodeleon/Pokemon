@@ -97,3 +97,24 @@ nav li a:hover {
 .main_button:hover {
     background-color: #a70303;
 }
+
+
+/*-----pie de pagina-----*/
+
+footer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+footer p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: grey;
+}
+
+.footer_img {
+    width: 50px;
+    border-radius: 50px;
+}

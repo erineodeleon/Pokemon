@@ -1,3 +1,13 @@
+.row img {
+    width: 150px;
+}
+
+.cuerpo {
+    background-color: white;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .container {
     max-width: 900px;
     margin: auto;
@@ -8,51 +18,45 @@
 }
 
 .col1 {
-    width: 8.3333333333%;
+    width: 8%;
 }
 
 .col2 {
-    width: 16.6666666666%;
+    width: 16%;
 }
 
 .col3 {
-    width: 24.9999999999%;
+    width: 24%;
 }
 
 .col4 {
-    width: 333.333.333.332%;
+    width: 33%;
 }
 
-.col5 {
-    width: 416.666.666.665%;
-}
+.col5 {}
 
-.col6 {
-    width: 499.999.999.998%;
-}
+.col6 {}
 
-.col7 {
-    width: 583.333.333.331%;
-}
+.col7 {}
 
 .col8 {
-    width: 666.666.666.664%;
+    width: 30%;
 }
 
 .col9 {
-    width: 749.999.999.997%;
+    width: 74%;
 }
 
 .col10 {
-    width: 833.333.333.330%;
+    width: 83%;
 }
 
 .col11 {
-    width: 916.666.666.663%;
+    width: 91%;
 }
 
 .col12 {
-    width: 999.999.999.996%;
+    width: 100%;
 }
 
 .col1,
@@ -68,7 +72,7 @@
 .col10,
 .col11,
 .col12 {
-    padding: 10px;
+    padding: 5px;
 }
 
 @media (max-width: 900px) {
@@ -90,4 +94,17 @@
     .col12 {
         width: 100%;
     }
+}
+
+
+/*----texto de informacion---*/
+
+.Info {
+    text-align: center;
+    width: 100%;
+}
+
+.Info p {
+    font-size: 17px;
+    color: rgb(122, 121, 121);
 }

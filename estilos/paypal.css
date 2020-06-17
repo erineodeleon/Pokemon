@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(2, 2, 2);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+}
+
+.cont_pp a {
+    color: red;
+}
+
+.cont_pp img {
+    width: 150px;
+}

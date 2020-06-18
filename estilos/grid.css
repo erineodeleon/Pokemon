@@ -33,9 +33,14 @@
     width: 33%;
 }
 
-.col5 {}
+.col5 h1 {
+    color: red;
+    text-align: right;
+}
 
-.col6 {}
+.col6 h1 {
+    color: blue;
+}
 
 .col7 {}
 
@@ -47,8 +52,17 @@
     width: 74%;
 }
 
+.col9 h1 {
+    color: green;
+}
+
 .col10 {
     width: 83%;
+}
+
+.col10 h1 {
+    color: rgb(201, 201, 7);
+    text-align: right;
 }
 
 .col11 {

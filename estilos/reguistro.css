@@ -1,14 +1,75 @@
 body {
-    background-color: rgb(255, 254, 254);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: rgb(255, 0, 0);
+}
+
+.contenedor {
+    width: 100%;
+    padding: 10px;
     text-align: center;
-    color: rgb(8, 8, 8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+}
+
+.contenedor .contenedor2 label {
+    color: rgb(0, 0, 0);
     font-size: 20px;
 }
 
 .formulario {
-    background-color: aquamarine;
+    background-color: rgb(253, 253, 253);
+    margin-top: 150px;
+    padding: 3px;
+    width: 500px;
+    margin: auto;
+    border-radius: 8px;
+    border: solid 1px;
 }
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+
+input {
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: solid rgb(0, 0, 0);
+}
+
+.contenedor2 {
+    margin-bottom: 15px;
+}
+
+.button {
+    border: solid 1px;
+    width: 84%;
+    color: black;
+    font-size: 20px;
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: rgb(160, 6, 6);
+}
+
+p {
+    text-align: center;
+}
+
+.referencia {
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+}
+
+.referencia:hover {
+    color: black;
+}
+
+@media(min-width:768px)

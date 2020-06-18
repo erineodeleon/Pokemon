@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
 
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>reguistro</title>
+    <title>REGISTRATE</title>
     <link rel="stylesheet" href="estilos/reguistro.css">
-    <link rel="stylesheet" href="estilos/grid.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col8">
-                <div class="formulario">
-                    <form action="">
-                        <label class="for" for="name">Nombre</label>
-                        <br>
-                        <input type="text" placeholder="coloca tu nombre " name="name" class="data">
-                        <label class="for" for="e-mail">E-mail</label>
-                        <input type="text" placeholder="correo electronico" name="email" class="data">
-                        <br>
-                        <label class="for" for="tel">TELEFONO</label>
-                        <input type="text" placeholder="Numero telefonico" name="phone" class="data">
-                        <br>
-                        <input type="Submit" class="main_button" name="submit" value="forma de pago">
-                    </form>
-                </div>
-
+    <form class="formulario">
+        <h1>REGISTRATE</h1>
+        <div class="contenedor">
+            <div class="contenedor2">
+                <label class="for" for="name">Nombre</label>
+                <br>
+                <input type="text" placeholder="coloca tu nombre " name="name" class="data">
             </div>
-        </div>
-    </div>
+            <div class="contenedor2">
+                <label class="for" for="e-mail">E-mail</label>
+                <br>
+                <input type="text" placeholder="correo electronico" name="email" class="data">
+            </div>
+            <div class="contenedor2">
+                <label for="password">CONTRASEÑA</label>
+                <br>
+                <input type="password" placeholder="Contraseña" name="password">
+            </div>
+            <div class="contenedor2">
+                <label for="passwor_repit">REPETIR CONTRASEÑA</label>
+                <br>
+                <input type="password" placeholder="Repetir contraseña" name="passwor_repit">
+            </div>
+            <div class="contenedor2">
+                <label for="tel">TELEFONO</label>
+                <br>
+                <input type="text" placeholder="Numero telefonico" name="tel">
+            </div>
+            <div class="contenedor">
+                <input type="submit" value="registrate" class="button">
+                <p>¿ya tienes cuenta?
+                    <a href="#" class="referencia">iniciar secion</a>
+                </p>
+            </div>
+    </form>
 </body>
 
 </html>

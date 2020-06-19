@@ -123,6 +123,11 @@ nav li a:hover {
     border-radius: 2px;
 }
 
+.main_button a {
+    color: white;
+    text-decoration: none;
+}
+
 .main_button:hover {
     background-color: #a70303;
 }
